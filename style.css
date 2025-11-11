@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: white;
     margin: 0px;
@@ -85,4 +88,39 @@ h2{
     border: 2px solid black;
     height: 45px;
     overflow: auto;
+}
+
+#div-display{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#span-display{
+    background-color: blue;    
+    width: 100px;
+    height: 100px;
+    display: inline;
+    display: hidden;
+}
+
+.box2{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-width: 75%;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 100vh;
 }
