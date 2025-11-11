@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+</head>
+<body>
+    <header style="background-color: mediumpurple;">
+        <h1>Welcome to my test website: Heaader</h1>
+        <a href="#">Home</a>
+        <a href="">About Us</a>
+        <a href="">Products</a>
+        <a href="">Contact Us us</a>
+        <hr>
+    </header>
+    <main>
+    <h1>This is an H1 heading</h1>
+    <h2>This is an H2 heading</h2>
+    <h3>H3 heading</h3>
+    <h4>H4 HEADING</h4>
+    <h5>H5 heading</h5>
+    <br>
+    <hr>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Cum corporis animi necessitatibus perspiciatis soluta fugit architecto quis, nam sequi commodi. 
+        Veritatis cupiditate laborum ab atque? Nihil obcaecati accusamus culpa suscipit.
+    </p>
+
+    <pre>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        <br>
+        Molestias, voluptas repellendus! Autem odit ad molestias quaerat inventore.
+        <br>
+        Natus, dolor necessitatibus? Cupiditate corporis vitae error doloribus, id quibusdam porro? Culpa, fugiat!
+    </pre>
+    <a href="lyrics.html" target="_blank" title="Lyrics page">
+        song lyrics
+    </a>
+    <br>
+
+    <a href="mailto:raphaelfulfilled@gmail">email me</a>
+    <br>
+
+    <audio controls autoplay muted loop src="/sound/a-ha - Take On Me.mp3" ></audio>
+    <br>
+    <video src="zelda.mp4" width="500px" controls autoplay muted></video>
+<!--Comment-->
+
+    <p>This is normal text</p>
+    <p>This is <b>BOLD</b> text</p>
+    <p>This is <I>ITALICS</I> text</p>
+    <p>This is <U>UNDERLINED</U> text</p>
+    <p>This is <del>DELETED</del> text</p>
+    <p>This is <BIG>BIG</BIG> text</p>
+    <p>This is <SMALL>SMALL</SMALL> text</p>
+    <p>This is <sub>SUBSCRIPT</sub> text</p>
+    <p>This is <SUP>SUPERSCRIPT</SUP> text</p>
+    <p>This is <tt>MONOSPACED</tt> text</p>
+    <p>This is <mark style="background-color: aquamarine;">HIGHLITED</mark> text</p>
+
+    <h1><span style="background-color: blueviolet;">SPAN TITLE</span></h1>
+    <h1><div style="background-color: rgb(241, 5, 241);">DIV TITLE</div></h1>
+
+    <p><span style="background-color: chartreuse;">THIS IS SPAN SENTENCE</span></p>
+    <p><DIV style="background-color: cadetblue;">THIS IS A DIV SENTENCE</DIV></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: blueviolet;">Eos eius corrupti quam delectus commodi suscipit esse natus obcaecati,</span> ipsam eaque corporis atque maxime ullam autem aspernatur fugiat unde, ab libero!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: blueviolet;">Eos eius corrupti quam delectus commodi suscipit esse natus obcaecati,</div> ipsam eaque corporis atque maxime ullam autem aspernatur fugiat unde, ab libero!</p>
+
+    <!--Unordered Lists-->
+    <h4>Grocries</h4>
+    <ul>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>coffee supplies</li>
+        <ul>
+            <li>coffee beans</li>
+            <li>sugar</li>
+            <li>cream</li>
+        </ul>
+    </ul>
+
+     <!--Ordered Lists-->
+    <h4>To-Do list</h4>
+     <ol>
+        <li>eat breakfast</li>
+        <li>go to class</li>
+        <li>walk dog</li>
+        <li>work</li>
+        <li>sleep</li>
+     </ol>
+
+     <br>
+      <!--Description Lists-->
+      <h4>Mythical Creatures</h4>
+     <dl style="background-color: blueviolet; border: 2px solid;">
+        <dt>Dragon</dt>
+        <dd>A big monster</dd>
+        <br>
+        <dt>Pheonix</dt>
+        <dd>Immortal bird</dd>
+        <br>
+        <dt>Vampire</dt>
+        <dd>Lives by feeding on blood</dd>
+        <br>
+        <dt>Werewolf</dt>
+        <dd>Personntransformed into a Wolf</dd>
+     </dl>
+
+    <!--Tables-->
+    <h3>Store Hours</h3>
+    <table border="1" style="background-color: black;">
+        <tr align="center" style="background-color: lightblue;>
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue;">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table>
+
+     <!--Button-->
+     <a href="lyrics.html">
+        <button style="font-size: 25px; background-color: blueviolet; color: azure; border-radius: 25px;">lyrics page</button>
+    </a>
+
+    <button onclick="doSth()" style="background-color: blanchedalmond; font-size: 25px; color: black; border-radius: 20px ;">click me</button>
+
+        <p id="greeting">Hello</p>
+
+<!--creating a form large form data-->
+
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <label for="Username">Username:</label>
+            <input type="text" name="" id="Username" placeholder="John Doe" minlength="6" maxlength="15" required>
+
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="" id="password" minlength="11" maxlength="23" required>
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="johndoe@example.com" required>
+
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="" id="phone" placeholder="08146251103" minlength="11" maxlength="13" required >
+            <br>
+            <label for="bday">Birthday:</label>
+            <input type="date" name="" id="bday">
+            <br>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="" id="quantity" min="0" max="99" value="1" >
+
+            <br>
+            <label for="title">Title:</label>
+
+            <input type="radio"  id="Mr." value="Mr." name="title" >
+            <label for="Mr.">Mr.</label>
+            
+
+            <input type="radio" id="Ms." value="Ms." name="title" >
+            <label for="Ms.">Ms.</label>
+            
+
+            <input type="radio" id="PhD." value="PhD."  name="title">
+            <label for="PhD.">PhD.</label>
+
+            <br>
+
+            <label for="paymen">Payment:</label>
+            <select name="" id="payment">
+
+                <option value="visa">visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="giftcard">Gift Card</option>
+
+            </select>
+             <br>
+
+             <label for="subscribe">Subscribe:</label>
+             <input type="checkbox" name="" id="subscribe">
+             <br>
+
+             <label for="comment">Comment:</label>
+             <textarea name="" id="comment" rows="3" cols="25"></textarea>
+             <br>
+
+             <label for="file">File:</label>
+             <input type="file" name="" id="file" accept="image/png, image/jpeg" >
+             <br>
+           
+
+            
+            <br> <br>
+
+            <input type="reset" >
+
+            <br> <br>
+
+            <input type="submit" >
+
+        </form>
+    </main>
+
+    <footer style="background-color: mediumpurple;">
+        <hr>
+        author: Raphael Fulfilled <br>
+        &copy; copyright reserved <br>
+        <small><a href="mailto:raphaelfulfilled@gmail.com">raphaelfulfilled@gmail.com</a></small>
+
+    </footer>
+
+    <script>
+        function doSth(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+        }
+    </script>
+
+
+</body>
+</html>
