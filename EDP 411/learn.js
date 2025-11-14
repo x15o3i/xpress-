@@ -37,4 +37,14 @@ document.getElementById("exponent").innerHTML = "Exponent: " +  exponent(2,3);
 
 
 // assignment operators
+ 
+function assignment(){
+    let x= 10;
+    let y=3;
+    return x+y;
+}
+document.getElementById("assignment").innerHTML = "The result of x + y (using the '=' assignment operator) is: " + assignment();
+
+
+// comparison operators using input from user
 
