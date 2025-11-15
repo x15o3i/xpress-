@@ -175,3 +175,82 @@ h2{
 #combinators ~ p{
     background-color: lightblue;
 }
+#linkk{
+    font-size: 60px;
+    padding-left: 50px;
+}
+a:link{
+    color: rgb(47, 194, 121);
+}
+a:hover{
+    color: blueviolet;
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(224, 29, 55);
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: green;
+}
+
+li:hover{
+    background-color: yellowgreen;
+}
+
+li:not(:hover){
+    background-color: grey;
+}
+
+li:nth-child(even){
+    background-color: red;
+}
+
+#grtt p{
+    background-color: rgb(192, 192, 247);
+    padding: 10px;
+    display: none;
+    font-size: 20px;
+
+}
+
+#grtt:hover p{
+    display: block;
+
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+p::selection{
+    color: rgb(8, 235, 8);
+    background-color: gray;
+}
+
+/* #fruit li::before{
+
+    content: "✔️";
+} */
+
+#apple::after{
+    content:"🍎";
+}
+
+#orange::after{
+    content:"🍊";
+}
+
+#banana::after{
+    content:"🍌";
+}
+
+#fruit li::marker{
+    content: "✔️";
+}
