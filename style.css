@@ -6,6 +6,7 @@ body{
     margin: 0px;
     border: 3px solid black;
     display: flow-root; /*anything flowing would be inside now*/
+    
 }
 .box{
     border: 5px solid;
@@ -123,4 +124,54 @@ h2{
 .container{
     background-color: blueviolet;
     height: 100vh;
+}
+
+#postion1{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#postion2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(116, 105, 86);
+    position: fixed;
+    right: 0px;
+    top: 100px;
+}
+
+#postion3{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#postion4{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    position: sticky;
+    left: 305px;
+    bottom: 50px;
+}
+
+#combinators{
+    border: 2px solid black;
+}
+#combinators > p{
+    background-color: yellow;
+}
+
+#combinators + p{
+    background-color: lightgreen;
+}
+#combinators ~ p{
+    background-color: lightblue;
 }
