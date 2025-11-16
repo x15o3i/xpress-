@@ -7,6 +7,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+        <div class="survey-section">
+        <h3>Name</h3>
+        <input type="text" placeholder="Enter your name" id="enter">
+        <br>
+        <h3>Email</h3>
+        <input type="email" placeholder="Enter your email" id="enter">
+        <br>
+        <h3>Age</h3>
+        <input type="number" placeholder="Enter your age" id="enter" min="7" max="99">
+        <br>
+        <h3>Which Option Best Describes You?</h3>
+        <select name="" id="dropdown">
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+
+        <br>
+        <h3>Would you recommend me to a friend?</h3>
+
+        <input type="radio" name="recom" id="Yes">
+        <label for="Yes">Yes</label>
+        <br>
+        <input type="radio" name="recom" id="No">
+        <label for="No">No</label>
+        <br>
+        <input type="radio" name="recom" id="Maybe">
+        <label for="Maybe">Maybe</label>
+
+        <br>
+        <h3>Languages and Framework Known <small>(click all that apply)</small></h3>
+        <input type="checkbox" name="lang" id="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="lang" id="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="lang" id="js">
+        <label for="js">JavaScript</label>
+        <br>
+        <input type="checkbox" name="lang" id="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="checkbox" name="lang" id="java">
+        <label for="java">Java</label>
+        <br>
+        <input type="checkbox" name="lang" id="csharp">
+        <label for="csharp">C#</label>
+        <br>
+        <input type="checkbox" name="lang" id="cpp">
+        <label for="cpp">C++</label>
+        <br><br>
+
+        <h3>Any Comments or Suggestions?</h3>
+        <textarea name="" id="comment" rows="3" cols="25"></textarea>
+
+        <br><br>
+        <button id="btn">
+            Submit
+        </button>
+        </div>
+        </form>
+        
+    </main>
     
 </body>
 </html>
