@@ -1,11 +1,26 @@
+/* Default styles (for larger screens) */
+#survey-section { width: 900px; margin: 0 auto; }
+
+/* Styles for screens 600px or smaller */
+@media (max-width: 600px) {
+ body{ width: 100%; }
+}
+
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #9dff00;
     font-size: 12px;
+    
 }
-.survey-section{
+
+.omo{
+    
+
+}
+#survey-section{
     padding: 20px;
     background: white;
     margin-right: 80%;
