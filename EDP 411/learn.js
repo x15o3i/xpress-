@@ -46,5 +46,18 @@ function assignment(){
 document.getElementById("assignment").innerHTML = "The result of x + y (using the '=' assignment operator) is: " + assignment();
 
 
-// comparison operators using input from user
+// comparison operators 
+function getValue(){
+    let age = document.getElementById("age").value;
+    let output = "";
+    if(age >= 18){
+        output = "You are an adult.";
+    }
+    else{
+        output = "You are a minor.";
+    }
+    let outputElement = document.getElementById('output');
+    outputElement.textContent = `Hello, ${output}!`;
+
+}
 
