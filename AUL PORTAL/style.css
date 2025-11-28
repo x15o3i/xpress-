@@ -1,144 +1,144 @@
  body {
-            font-family: "Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif;
-            background-color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: #333;
-        }
+     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+     background-color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     color: #333;
+ }
 
-        .login-container {
-            text-align: center;
-            width: 100%;
-            max-width: 350px;
-            padding: 20px;
-        }
+ .login-container {
+     text-align: center;
+     width: 100%;
+     max-width: 350px;
+     padding: 20px;
+ }
 
-        .logo-section {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 20px;
-            position: relative;
-        }
+ .logo-section {
+     margin-bottom: 20px;
+     border-bottom: 1px solid #e0e0e0;
+     padding-bottom: 20px;
+     position: relative;
+ }
 
-        .logo-section::after {
-            /* decorative line styling if needed, but border-bottom works */
-        }
+ .logo-section::after {
+     /* decorative line styling if needed, but border-bottom works */
+ }
 
-        .logo {
-            max-width: 150px;
-            height: auto;
-            margin-bottom: 10px;
-        }
+ .logo {
+     max-width: 150px;
+     height: auto;
+     margin-bottom: 10px;
+ }
 
-        .logo-text {
-            font-weight: bold;
-            color: #4a148c;
-            /* Approximate purple color */
-            font-size: 1.2rem;
-            display: block;
-        }
+ .logo-text {
+     font-weight: bold;
+     color: #4a148c;
+     /* Approximate purple color */
+     font-size: 1.2rem;
+     display: block;
+ }
 
-        .sub-logo-text {
-            font-size: 0.8rem;
-            color: #666;
-            letter-spacing: 2px;
-        }
+ .sub-logo-text {
+     font-size: 0.8rem;
+     color: #666;
+     letter-spacing: 2px;
+ }
 
-        h2 {
-            font-weight: normal;
-            color: #555;
-            margin-bottom: 30px;
-            font-size: 1.5rem;
-        }
+ h2 {
+     font-weight: normal;
+     color: #555;
+     margin-bottom: 30px;
+     font-size: 1.5rem;
+ }
 
-        .form-group {
-            margin-bottom: 15px;
-            text-align: left;
-        }
+ .form-group {
+     margin-bottom: 15px;
+     text-align: left;
+ }
 
-        label {
-            display: block;
-            font-size: 0.8rem;
-            color: #666;
-            margin-bottom: 5px;
-            text-align: center;
-            /* Labels are centered in the image */
-        }
+ label {
+     display: block;
+     font-size: 0.8rem;
+     color: #666;
+     margin-bottom: 5px;
+     text-align: center;
+     /* Labels are centered in the image */
+ }
 
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
-            /* Ensures padding doesn't affect width */
-            font-size: 0.9rem;
-            color: #555;
-        }
+ input[type="text"],
+ input[type="password"] {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     box-sizing: border-box;
+     /* Ensures padding doesn't affect width */
+     font-size: 0.9rem;
+     color: #555;
+ }
 
-        input::placeholder {
-            color: #999;
-        }
+ input::placeholder {
+     color: #999;
+ }
 
-        .actions {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 20px;
-            border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 30px;
-            margin-bottom: 20px;
-        }
+ .actions {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+     border-bottom: 1px solid #e0e0e0;
+     padding-bottom: 30px;
+     margin-bottom: 20px;
+ }
 
-        .btn-login {
-            background-color: #5bc0de;
-            /* Light blue/teal */
-            color: white;
-            border: none;
-            padding: 8px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: bold;
-        }
+ .btn-login {
+     background-color: #5bc0de;
+     /* Light blue/teal */
+     color: white;
+     border: none;
+     padding: 8px 20px;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 0.9rem;
+     font-weight: bold;
+ }
 
-        .btn-login:hover {
-            background-color: #46b8da;
-        }
+ .btn-login:hover {
+     background-color: #46b8da;
+ }
 
-        .forgot-password {
-            font-size: 0.8rem;
-            color: #666;
-            text-decoration: none;
-        }
+ .forgot-password {
+     font-size: 0.8rem;
+     color: #666;
+     text-decoration: none;
+ }
 
-        .forgot-password:hover {
-            text-decoration: underline;
-        }
+ .forgot-password:hover {
+     text-decoration: underline;
+ }
 
-        .footer {
-            margin-top: 20px;
-            color: #777;
-        }
+ .footer {
+     margin-top: 20px;
+     color: #777;
+ }
 
-        .footer-logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            font-size: 1.1rem;
-            color: #555;
-            margin-bottom: 10px;
-        }
+ .footer-logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     font-size: 1.1rem;
+     color: #555;
+     margin-bottom: 10px;
+ }
 
-        .footer-year {
-            font-size: 0.8rem;
-            color: #999;
-        }
+ .footer-year {
+     font-size: 0.8rem;
+     color: #999;
+ }
 
-        /* Font Awesome for the anchor icon if available, otherwise fallback */
-        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+ /* Font Awesome for the anchor icon if available, otherwise fallback */
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
