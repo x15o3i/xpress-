@@ -50,11 +50,14 @@ document.getElementById("assignment").innerHTML = "The result of x + y (using th
 function getValue(){
     let age = document.getElementById("age").value;
     let output = "";
-    if(age >= 18){
+    if(age < 18){
+        output = "You are a minor.";
+    }
+    else if(age >= 18 && age <= 65){
         output = "You are an adult.";
     }
-    else{
-        output = "You are a minor.";
+    else if(age > 65){
+        output = "You are a senior citizen.";
     }
     let outputElement = document.getElementById('output');
     outputElement.textContent = `Hello, ${output}!`;
